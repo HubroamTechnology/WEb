@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.carousel-slide {
+  /* background-color: #579dff;  */
+  background-color: #24497ce7; 
+  border-radius: 5px;
+  padding:9px
+}
+
+.carousel-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white; /* Text color to contrast the dark background */
+}
+
+.text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.image {
+  flex: 1;
+}
+
+
+/* Custom styling for the left and right arrows */
+.custom-arrow {
+  background-color: #24497c9f;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}
+
+.custom-arrow:hover {
+  background-color: #1d3b68; /* Slightly darker background on hover */
+}
+
+
+.image img {
+ width: 50% !important;
+  height: 50%;
+  border-radius: 50%;
+}
